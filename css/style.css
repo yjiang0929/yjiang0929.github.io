@@ -200,11 +200,19 @@ hr {
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+	font-size: 20px;
+}
+#about h2 {
+	font-size: 40px;
 }
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #7bc3d1;
+}
+#skills h2 {
+	color: #fff;
+	font-size: 40px;
 }
 #skills hr {
 	background: rgba(255,255,255,0.3);
@@ -216,6 +224,7 @@ hr {
 }
 #skills .skill h4 {
 	font-weight: 600;
+	color: #fff;
 }
 .chart {
 	position: relative;
@@ -375,6 +384,9 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
+#portfolio h2 {
+	font-size: 40px;
+}
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
@@ -382,6 +394,7 @@ ol.type li a:hover {
 }
 #achievements h2 {
 	color: #fff;
+	font-size: 40px;
 }
 #achievements hr {
 	background: rgba(255,255,255,0.3);
@@ -404,6 +417,12 @@ ol.type li a:hover {
 #resume {
 	padding: 100px 0;
 	background: #f6f6f6;
+}
+#resume h2 {
+	font-size: 40px;
+}
+#resume p {
+	margin-top: 7px;
 }
 .timeline {
 	position: relative;
@@ -512,6 +531,7 @@ ol.type li a:hover {
 }
 #contact h2 {
 	color: #fff;
+	font-size: 40px;
 }
 #contact hr {
 	background: rgba(255,255,255,0.3);
