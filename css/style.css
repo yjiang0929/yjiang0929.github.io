@@ -181,20 +181,21 @@ hr {
 	-o-background-size: cover;
 }
 .section-title.center {
-	padding: 25px 0 45px 0;
+	padding: 25px 0 5px 0;
 }
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 100px 0 50px 0;
 	background: #f6f6f6;
 }
 #about .about-text {
 	margin-left: 10px;
+	text-align: center;
 }
 #about img {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	border-radius: 20%;
+	width: 250px;
+	height: 250px;
 	display: inline-block;
 }
 #about p {
@@ -207,7 +208,7 @@ hr {
 }
 /* Skills Section */
 #skills {
-	padding: 100px 0;
+	padding: 50px 0;
 	background: #7bc3d1;
 }
 #skills h2 {
@@ -253,16 +254,10 @@ hr {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 80px 0;
+	padding: 50px 0;
 	background: #7bc3d1; /* Old browsers */
-	background: -moz-linear-gradient(top, #7bc3d1 0%, #7bc3d1 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7bc3d1), color-stop(100%, #7bc3d1)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #7bc3d1 0%, #7bc3d1 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #7bc3d1 0%, #7bc3d1 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #7bc3d1 0%, #7bc3d1 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #f6f6f6 0%,#f6f6f6 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bc3d1', endColorstr='#7bc3d1', GradientType=0 ); /* IE6-9 */
 }
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
@@ -389,7 +384,7 @@ ol.type li a:hover {
 }
 /* Achivements Section */
 #achievements {
-	padding: 100px 0;
+	padding: 50px 0;
 	background: #7bc3d1;
 }
 #achievements h2 {
